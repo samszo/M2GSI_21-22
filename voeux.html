@@ -18,16 +18,28 @@
     </style>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script>
-        var urlVoeux = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQBZM0UHjFZLPclvRBe2A59T9kOnPa2z_77Di9vKOYuHjN1RC5bq8R0DlVDz6wVNi2NU4wQvWuccTiO/pub?gid=2002474471&single=true&output=csv";
+        var urlVoeux = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTM42Rbon532i3N3aW25ZpkoKtsMN-u6C7ycSj6A3DP2QCO89n3OMkseL--aI9a9s3ouwQJsVk6cOFw/pub?gid=1474887390&single=true&output=csv";
+        chargeVoeux(urlVoeux);
         function clickAdjectif(message){
             let el = document.getElementById('adjectif');
             el.style.fontSize = "100px";
         }
-        function chargeSvg(url, id){
+        function chargeSvg(d, id){
+            let url = 'https://'+d['Votre compte GitHub']+'.github.io/M2GSI_21-22/voeux.svg';
             d3.xml(url)
+                .then((data,erro) => {
+                    d3.select('#voeux').append('H1').html(d['Votre prénom']+' '+d['Votre nom']);
+                    d3.select('#voeux').append('div').node().append(data.documentElement);
+                });
+        }
+        function chargeVoeux(url){
+            d3.csv(url)
                 .then(data => {
-                    document.getElementById(id).append(data.documentElement)
+                    data.forEach(d=>{
+                        chargeSvg(d, 'voeux')
+                    })
                 })            
+
         }
 
     </script>
