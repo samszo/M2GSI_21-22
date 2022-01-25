@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="Voeux2022.svg"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 211.66667 158.75"
+   height="600"
+   width="800">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient1040"
+       inkscape:collect="always">
+      <stop
+         id="stop1036"
+         offset="0"
+         style="stop-color:#ff70ff;stop-opacity:1;" />
+      <stop
+         style="stop-color:#1670ff;stop-opacity:0.43137255"
+         offset="0.41705158"
+         id="stop1044" />
+      <stop
+         id="stop1046"
+         offset="0.68028009"
+         style="stop-color:#f33209;stop-opacity:0.23529412" />
+      <stop
+         id="stop1038"
+         offset="1"
+         style="stop-color:#ff70ff;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1000"
+       inkscape:collect="always">
+      <stop
+         id="stop996"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         style="stop-color:#13a4ff;stop-opacity:0.59607846"
+         offset="0.40044647"
+         id="stop1032" />
+      <stop
+         id="stop1034"
+         offset="0.71264273"
+         style="stop-color:#dc5d0a;stop-opacity:0.28235295" />
+      <stop
+         id="stop998"
+         offset="1"
+         style="stop-color:#ff1cff;stop-opacity:0" />
+    </linearGradient>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.0657053,-1.2875101,-1.1894273)"
+       r="54.745448"
+       fy="104.32142"
+       fx="35.529758"
+       cy="104.32142"
+       cx="35.529758"
+       id="radialGradient1002"
+       xlink:href="#linearGradient1000"
+       inkscape:collect="always" />
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.0268646,0,-3.1884131)"
+       r="72.097941"
+       fy="118.68453"
+       fx="146.65475"
+       cy="118.68453"
+       cx="146.65475"
+       id="radialGradient1042"
+       xlink:href="#linearGradient1040"
+       inkscape:collect="always" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-maximized="0"
+     inkscape:window-y="25"
+     inkscape:window-x="79"
+     inkscape:window-height="943"
+     inkscape:window-width="1434"
+     units="px"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="408.0292"
+     inkscape:cx="349.39173"
+     inkscape:zoom="1.0275"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Calque 1">
+    <path
+       d="M 49.136905,52.160715 19.680926,41.087219 0.22437118,65.820184 -4.9136901,34.77381 -36.061343,30.290422 -11.743425,10.317544 -23.434523,-18.898809 6.0214556,-7.8253138 25.47801,-32.558278 30.616071,-1.5119044 61.763724,2.9714837 37.445806,22.944362 Z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.298471"
+       sodipodi:arg1="0.77487224"
+       sodipodi:r2="25.392012"
+       sodipodi:r1="50.784023"
+       sodipodi:cy="16.630953"
+       sodipodi:cx="12.851191"
+       sodipodi:sides="6"
+       id="path833"
+       style="fill:#ff491b;stroke:#00000b;stroke-width:0.529167;stroke-linejoin:round;stroke-miterlimit:10;paint-order:markers stroke fill;fill-opacity:1"
+       sodipodi:type="star" />
+    <path
+       inkscape:transform-center-x="1.6380952e-06"
+       d="M 173.86904,65.767857 140.3159,57.012857 121.83142,86.352042 112.6369,52.916667 77.986183,51.578232 102.34481,26.897856 86.178566,-3.7797622 119.73171,4.975237 l 18.48448,-29.339184 9.19452,33.4353747 34.65071,1.3384343 -24.35862,24.680376 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.1941203"
+       sodipodi:arg1="0.67052156"
+       sodipodi:r2="27.980452"
+       sodipodi:r1="55.960903"
+       sodipodi:cy="30.994047"
+       sodipodi:cx="130.0238"
+       sodipodi:sides="6"
+       id="path835"
+       style="fill:#32ffff;stroke:#00000b;stroke-width:0.529167;stroke-linejoin:round;stroke-miterlimit:10;paint-order:markers stroke fill;fill-opacity:1"
+       sodipodi:type="star" />
+    <path
+       inkscape:transform-center-y="-1.3142857e-06"
+       d="M 80.355344,146.27217 45.138376,137.22691 25.874445,168.06443 16.099391,133.04301 -20.23865,131.77871 5.2032637,105.80256 -11.870847,73.700743 23.346121,82.746009 42.610052,51.908488 52.385106,86.92991 88.723147,88.194203 63.281233,114.17036 Z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.1902916"
+       sodipodi:arg1="0.66669283"
+       sodipodi:r2="29.338842"
+       sodipodi:r1="58.677685"
+       sodipodi:cy="109.98646"
+       sodipodi:cx="34.242248"
+       sodipodi:sides="6"
+       id="path837"
+       style="fill:url(#radialGradient1002);fill-opacity:1;stroke:#00000b;stroke-width:0.529167;stroke-linejoin:round;stroke-miterlimit:10;paint-order:markers stroke fill"
+       sodipodi:type="star" />
+    <path
+       inkscape:transform-center-y="-1.4952381e-06"
+       inkscape:transform-center-x="1.8476191e-06"
+       d="m 202.59523,169.33334 -44.37974,-14.73211 -27.45365,37.85358 -9.43149,-45.80004 -46.508988,-4.84877 34.948258,-31.06793 -19.055341,-42.702347 44.379741,14.732112 27.45365,-37.85358 9.43149,45.80004 46.50899,4.848769 -34.94826,31.067926 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.2593923"
+       sodipodi:arg1="0.7357935"
+       sodipodi:r2="37.731415"
+       sodipodi:r1="75.46283"
+       sodipodi:cy="118.68453"
+       sodipodi:cx="146.65475"
+       sodipodi:sides="6"
+       id="path839"
+       style="fill:url(#radialGradient1042);stroke:#00000b;stroke-width:0.529167;stroke-linejoin:round;stroke-miterlimit:10;paint-order:markers stroke fill;fill-opacity:1"
+       sodipodi:type="star" />
+    <text
+       id="text871"
+       y="39.309525"
+       x="57.452377"
+       style="font-style:normal;font-weight:normal;font-size:22.57777778px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.264583;font-size:22.57777778px;"
+         y="39.309525"
+         x="57.452377"
+         id="tspan869"
+         sodipodi:role="line">Joyeux 2022</tspan></text>
+    <text
+       id="text875"
+       y="97.064301"
+       x="11.339282"
+       style="font-style:normal;font-weight:normal;font-size:16.93329999999999913px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;"
+       xml:space="preserve"><tspan
+         style="font-size:16.93329999999999913px;fill:#000000;fill-opacity:1;stroke-width:0.264583;"
+         y="97.064301"
+         x="11.339282"
+         id="tspan873"
+         sodipodi:role="line">Je vous souhaite : </tspan></text>
+    <text
+       id="text1050"
+       y="126.67425"
+       x="16.222628"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.264583"
+         y="126.67425"
+         x="16.222628"
+         id="tspan1048"
+         sodipodi:role="line">Tout le bonheur du monde</tspan></text>
+  </g>
+</svg>
