@@ -19,12 +19,13 @@
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script>
         var urlVoeux = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTM42Rbon532i3N3aW25ZpkoKtsMN-u6C7ycSj6A3DP2QCO89n3OMkseL--aI9a9s3ouwQJsVk6cOFw/pub?gid=1474887390&single=true&output=csv";
-        chargeVoeux(urlVoeux);
+        //chargeVoeux(urlVoeux);
+
         function clickAdjectif(message){
             let el = document.getElementById('adjectif');
             el.style.fontSize = "100px";
         }
-        function chargeSvg(d, id){
+        function chargeSvgEtu(d, id){
             let url = 'https://'+d['Votre compte GitHub']+'.github.io/M2GSI_21-22/voeux.svg';
             d3.xml(url)
                 .then((data,erro) => {
@@ -36,10 +37,26 @@
             d3.csv(url)
                 .then(data => {
                     data.forEach(d=>{
-                        chargeSvg(d, 'voeux')
+                        chargeSvgEtu(d, 'voeux')
                     })
                 })            
+        }
 
+        function chargeSvg(url,id){
+            var urlParam = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQBZM0UHjFZLPclvRBe2A59T9kOnPa2z_77Di9vKOYuHjN1RC5bq8R0DlVDz6wVNi2NU4wQvWuccTiO/pub?gid=2002474471&single=true&output=csv";
+            d3.csv(urlParam)
+                .then(dataParam => {
+                    dataParam.forEach((d,i)=>{
+                        d3.xml(url)
+                            .then(data => {
+                                d3.select('#voeux').append('div').attr('id','cartevoeux_'+i).node().append(data.documentElement);
+                                d3.select('#cartevoeux_'+i)
+                                    .select("#tspan1640").text(d['A qui destinez-vous ces voeux ?']);
+                                d3.select('#cartevoeux_'+i)
+                                    .select("#tspan1048").text(d['Que souhaitez-vous ?']);
+                            });
+                    })
+                })            
         }
 
     </script>
