@@ -31,7 +31,7 @@
                             .then(data => {
                                 d3.select('#voeux').append('div').attr('id','cartevoeux_'+i).node().append(data.documentElement);
                                 d3.select('#cartevoeux_'+i)
-                                    .select("#tspan1640").text(d['A qui destinez-vous ces voeux ?']);
+                                    .select("texte2014").text(d['A qui destinez vous ces vœux ?']);
                                 d3.select('#cartevoeux_'+i)
                                     .select("#tspan1048").text(d['Que souhaitez-vous ?']);
                             });
